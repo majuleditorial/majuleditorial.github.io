@@ -17,7 +17,7 @@ const SITE_CONFIG = {
 const HERO = {
   eyebrow: "New Editorial Platform",
   headline: "A polished digital home for <em>fashion,</em> culture, and commentary.",
-  body: "A platform exploring fashion through cycles of revival, reinterpretation, and cultural memory—where what feels new is often what has been reshaped, and meaning emerges through recognition rather than invention.",
+  body: " Handcrafted for visual storytelling, engaging reading, and a deeper exploration of fashion beyond surface-level expression.",
   heroArticleId: "fashion-journalism",
 heroImage: "./../LeadArticleImage.png",
   heroBadge: "Issue 01 · Featured",
@@ -27,7 +27,7 @@ heroImage: "./../LeadArticleImage.png",
 // featuredId must match an id in the articles array below.
 const FEATURED = {
   featuredId: "fashion-journalism",
-  sectionDesc: "A professional homepage flow inspired by modern magazine design: image-forward, spacious, and structured to make discovery feel effortless.",
+  sectionDesc: "A platform exploring fashion through cycles of revival, reinterpretation, and cultural memory—where what feels new is often what has been reshaped, and meaning emerges through recognition rather than invention.",
   editorNote: "This is a placeholder for an editor's note or pull quote. It adds a secondary layer of context and editorial voice to the featured article layout.",
 };
 
