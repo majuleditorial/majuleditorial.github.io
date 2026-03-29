@@ -20,7 +20,7 @@ const HERO = {
   body: "Handcrafted for visual storytelling, engaging reading, and a deeper exploration of fashion beyond surface-level expression",
   heroArticleId: "fashion-journalism",
 heroImage: "./../LeadArticleImage.png",
-  heroBadge: "Issue 01 · Featured",
+  heroBadge: "Issue 06 · Featured",
 };
 
 // ── FEATURED ARTICLE (Lead Story) ────────────────────────────────
@@ -46,26 +46,11 @@ const FEATURED = {
 //   quote     — pull quote shown large inside the article page
 //   body      — array of paragraph strings (the full article text)
 const articles = [
-  {
-    id: "founders-note",
-    category: "Editorial",
-    issue: "Issue 01",
-    title: "Who's That Girl? Meet the Co-Founders.",
-    subtitle: "A closer look at the perspective shaping Majul Editorial.",
-    excerpt: "Sample text. This space holds a short article preview that introduces the piece, frames the tone, and gives readers a reason to continue into the full page.",
-    image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1400&q=80",
-    readTime: "4 min read",
-    quote: "Replace this with a pull quote from the article — one strong sentence that earns its own space.",
-    body: [
-      "Replace this paragraph with the article's opening. Set the scene, establish the voice, and make the reader want to stay.",
-      "This second paragraph continues the story. Use it for context, detail, or a shift in perspective.",
-      "The third paragraph can deepen the argument or introduce a turn. Keep the tone editorial throughout.",
-    ],
-  },
+  
   {
     id: "fashion-journalism",
-    category: "Culture",
-    issue: "Issue 01",
+    category: "Issue 06",
+    issue: "Issue 06",
     title: "Does Originality Even Matter Anymore? Nostalgia, Revival Culture, and the Limits of Fashion Law",
     subtitle: "Where digital publishing, identity, and visual culture intersect.",
     excerpt: "Originality in fashion is increasingly less about invention than reinterpretation, as revival culture turns past aesthetics into present currency and exposes the gap between legal definitions of originality and the industry’s recursive creative reality.",
@@ -96,10 +81,27 @@ image: "./../LeadArticleImage.png",
   "And genuine creativity resides there."
 ],
   },
+
+ {
+    id: "founders-note",
+    category: "Issue 05",
+    issue: "Issue 05",
+    title: "Who's That Girl? Meet the Co-Founders.",
+    subtitle: "A closer look at the perspective shaping Majul Editorial.",
+    excerpt: "Sample text. This space holds a short article preview that introduces the piece, frames the tone, and gives readers a reason to continue into the full page.",
+    image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1400&q=80",
+    readTime: "4 min read",
+    quote: "Replace this with a pull quote from the article — one strong sentence that earns its own space.",
+    body: [
+      "Replace this paragraph with the article's opening. Set the scene, establish the voice, and make the reader want to stay.",
+      "This second paragraph continues the story. Use it for context, detail, or a shift in perspective.",
+      "The third paragraph can deepen the argument or introduce a turn. Keep the tone editorial throughout.",
+    ],
+  },
   {
     id: "runway-context",
-    category: "Commentary",
-    issue: "Issue 01",
+    category: "Issue 04",
+    issue: "Issue 04",
     title: "Beyond the Runway: Context Matters",
     subtitle: "Fashion examined through culture, timing, and social response.",
     excerpt: "Sample text. This preview box can later be replaced with a custom excerpt for each article.",
@@ -114,8 +116,8 @@ image: "./../LeadArticleImage.png",
   },
   {
     id: "creative-direction",
-    category: "Fashion",
-    issue: "Issue 01",
+    category: "Issue 03",
+    issue: "Issue 03",
     title: "Creative Direction in the Digital Age",
     subtitle: "The new visual language of editorial storytelling online.",
     excerpt: "Sample text. Place a brief preview here so readers understand the tone and subject before opening the full article page.",
@@ -130,7 +132,7 @@ image: "./../LeadArticleImage.png",
   },
   {
     id: "emerging-voices",
-    category: "Profiles",
+    category: "Issue 02",
     issue: "Issue 02",
     title: "Emerging Voices, Distinct Points of View",
     subtitle: "New perspectives from the people shaping visual culture.",
@@ -146,8 +148,8 @@ image: "./../LeadArticleImage.png",
   },
   {
     id: "identity-style",
-    category: "Style",
-    issue: "Issue 02",
+    category: "Issue 01",
+    issue: "Issue 01",
     title: "Style, Identity, and Editorial Presence",
     subtitle: "How personal image becomes narrative in modern media.",
     excerpt: "Sample text. Keep this concise and elegant. It acts as a visual snippet that supports the homepage flow without overcrowding the design.",
