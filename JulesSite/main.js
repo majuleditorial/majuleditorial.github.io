@@ -9,7 +9,7 @@ const SITE_CONFIG = {
   tagline: "Fashion Beyond The Runway · Culture · Context · Commentary",
   footerTagline: "Fashion beyond the runway.",
   footerDesc: "Handcrafted for visual storytelling, engaging reading, and a deeper exploration of fashion beyond surface-level expression.",
-  instagramUrl: "https://instagram.com",
+  instagramUrl: "https://www.instagram.com/majuleditorial/",
 };
 
 // ── HERO SECTION ─────────────────────────────────────────────────
@@ -27,7 +27,7 @@ const HERO = {
 // featuredId must match an id in the articles array below.
 const FEATURED = {
   featuredId: "fashion-journalism",
-  sectionDesc: " platform exploring fashion through cycles of revival, reinterpretation, and cultural memory—where what feels new is often what has been reshaped, and meaning emerges through recognition rather than invention.",
+  sectionDesc: " An industry built on repetition now confronts a system built on originality—fashion thrives by reviving the past, while the law struggles to define who, if anyone, can claim it.",
   editorNote: "This is a placeholder for an editor's note or pull quote. It adds a secondary layer of context and editorial voice to the featured article layout.",
 };
 
