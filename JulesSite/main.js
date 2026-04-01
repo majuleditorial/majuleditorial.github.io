@@ -341,7 +341,6 @@ function renderCards(list) {
           <span>${a.readTime}</span>
         </div>
         <h3 class="card-title">${a.title}</h3>
-        <h3 class="card-title">${a.title}</h3>
         <p class="card-subtitle">${a.subtitle}</p>
         <div class="card-excerpt">${a.excerpt}</div>
         <span class="card-read-btn">
