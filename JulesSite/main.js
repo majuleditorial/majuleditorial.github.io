@@ -48,7 +48,7 @@ const FEATURED = {
 const articles = [
   
   {
-    id: "fashion-journalism",
+    id: "Issue 05",
     category: "Culture",
     issue: "Issue 06",
     title: "Does Originality Even Matter Anymore? Nostalgia, Revival Culture, and the Limits of Fashion Law",
@@ -83,7 +83,7 @@ const articles = [
   },
 
  {
-    id: "founders-note",
+    id: "Issue 05",
     category: "Culture",
     issue: "Issue 05",
     title: "The Rise of Conservative Aesthetics on the Runway",
@@ -135,7 +135,7 @@ const articles = [
   ],
   },
   {
-    id: "runway-context",
+    id: "Issue 04",
     category: "trend analysis",
     issue: "Issue 04",
     title: "The Rise of Counterfeit Culture: Fashion Law’s Ongoing Battle Against Knockoffs",
@@ -163,7 +163,7 @@ const articles = [
   ],
   },
   {
-    id: "creative-direction",
+    id: "Issue 03",
     category: "Ethical",
     issue: "Issue 03",
     title: "What a Devil Wears Now: Fashion Law, Power, and Ethics in a Sequel Era",
@@ -195,7 +195,7 @@ const articles = [
   ],
   },
   {
-    id: "emerging-voices",
+    id: "Issue 02",
     category: "Emotion",
     issue: "Issue 02",
     title: "Fashion as Emotional Diplomacy: How Wardrobes Convey Empathy and Accessibility on the World Stage",
@@ -225,7 +225,7 @@ const articles = [
   ],
   },
   {
-    id: "identity-style",
+    id: "Issue 01",
     category: "Fashion",
     issue: "Issue 01",
     title: "The Jurisprudence of Color Ownership in Fashion, Trademark Law, and the Boundaries of Color Protection.",
