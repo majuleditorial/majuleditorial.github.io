@@ -26,7 +26,7 @@ const HERO = {
 // ── FEATURED ARTICLE (Lead Story) ────────────────────────────────
 // featuredId must match an id in the articles array below.
 const FEATURED = {
-  featuredId: "fashion-journalism",
+  featuredId: "Issue-06",
   sectionDesc: " An industry built on repetition now confronts a system built on originality fashion thrives by reviving the past, while the law struggles to define who, if anyone, can claim it.",
   editorNote: "What we call new is often only remembered differently and in that recognition, fashion finds its power while the law loses its footing.",
 };
@@ -48,7 +48,7 @@ const FEATURED = {
 const articles = [
   
   {
-    id: "Issue 05",
+    id: "Issue-06",
     category: "Culture",
     issue: "Issue 06",
     title: "Does Originality Even Matter Anymore? Nostalgia, Revival Culture, and the Limits of Fashion Law",
@@ -83,7 +83,7 @@ const articles = [
   },
 
  {
-    id: "Issue 05",
+    id: "Issue-05",
     category: "Culture",
     issue: "Issue 05",
     title: "The Rise of Conservative Aesthetics on the Runway",
@@ -135,7 +135,7 @@ const articles = [
   ],
   },
   {
-    id: "Issue 04",
+    id: "Issue-04",
     category: "trend analysis",
     issue: "Issue 04",
     title: "The Rise of Counterfeit Culture: Fashion Law’s Ongoing Battle Against Knockoffs",
@@ -163,7 +163,7 @@ const articles = [
   ],
   },
   {
-    id: "Issue 03",
+    id: "Issue-03",
     category: "Ethical",
     issue: "Issue 03",
     title: "What a Devil Wears Now: Fashion Law, Power, and Ethics in a Sequel Era",
@@ -195,7 +195,7 @@ const articles = [
   ],
   },
   {
-    id: "Issue 02",
+    id: "Issue-02",
     category: "Emotion",
     issue: "Issue 02",
     title: "Fashion as Emotional Diplomacy: How Wardrobes Convey Empathy and Accessibility on the World Stage",
@@ -225,7 +225,7 @@ const articles = [
   ],
   },
   {
-    id: "Issue 01",
+    id: "Issue-01",
     category: "Fashion",
     issue: "Issue 01",
     title: "The Jurisprudence of Color Ownership in Fashion, Trademark Law, and the Boundaries of Color Protection.",

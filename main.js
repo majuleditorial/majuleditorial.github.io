@@ -26,7 +26,7 @@ const HERO = {
 // ── FEATURED ARTICLE (Lead Story) ────────────────────────────────
 // featuredId must match an id in the articles array below.
 const FEATURED = {
-  featuredId: "fashion-journalism",
+  featuredId: "Issue-06",
   sectionDesc: " An industry built on repetition now confronts a system built on originality fashion thrives by reviving the past, while the law struggles to define who, if anyone, can claim it.",
   editorNote: "What we call new is often only remembered differently and in that recognition, fashion finds its power while the law loses its footing.",
 };
