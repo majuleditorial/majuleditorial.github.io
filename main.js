@@ -12,6 +12,8 @@ const SITE_CONFIG = {
   instagramUrl: "https://www.instagram.com/majuleditorial/",
 };
 
+const MAX_ARTICLES_TO_SHOW = 10;
+
 // ── HERO SECTION ─────────────────────────────────────────────────
 // heroArticleId must match an id in the articles array below.
 const HERO = {
@@ -26,9 +28,9 @@ const HERO = {
 // ── FEATURED ARTICLE (Lead Story) ────────────────────────────────
 // featuredId must match an id in the articles array below.
 const FEATURED = {
-  featuredId: "Issue-06",
-  sectionDesc: " An industry built on repetition now confronts a system built on originality fashion thrives by reviving the past, while the law struggles to define who, if anyone, can claim it.",
-  editorNote: "What we call new is often only remembered differently and in that recognition, fashion finds its power while the law loses its footing.",
+  featuredId: "Issue-07",
+  sectionDesc: "Sustainability shifts fashion from a race for novelty to a careful practice of value, where the true story of a garment extends beyond the runway.",
+  editorNote: "True innovation in fashion now includes accountability: how pieces are made, worn, and reimagined matters as much as how they look.",
 };
 
 // ── ARTICLES ─────────────────────────────────────────────────────
@@ -47,6 +49,146 @@ const FEATURED = {
 //   body      — array of paragraph strings (the full article text)
 const articles = [
   
+  {
+    id: "Issue-10",
+    category: "Culture",
+    issue: "Issue 10",
+    title: "When Luxury Gets Looted: The Louvre Heist and the Legal Fragility of Cultural Glamour",
+    subtitle: "By: Mahek Dharamsi | Date: 3/29/2026",
+    excerpt: "A high-profile heist at the Louvre exposes more than just a security breach, it reveals a deeper legal fragility at the intersection of luxury, culture, and heritage.",
+    image: "Issue10Image.png",
+    readTime: "8 min read",
+    quote: "The empty display case in the Louvre is a mirror for the brittleness of the laws meant to protect cultural glamour.",
+    body: [
+      "Paris wakes up on October 2025 to a scenario that is typically only found in movies. A group of robbers broke into the second floor early in the morning and took eight royal jewels that had once belonged to the House of Orléans, including sapphire pendants and diamond tiaras. Their value was believed to be around €88 million (Bennhold, 2025). These were shards of France's cultural essence, not merely indulgences.",
+      "The heist, which took place in less than nine minutes, sparked both fascination and indignation. How could the most renowned museum in the world, an establishment created to preserve civilization's treasures, be the site of such a bold loss? However, what it indicates about the law's blind spot is what really shocks people, not the spectacle (Shamin, 2025). A structural weakness is revealed by the Louvre heist: legal protections for luxury frequently vanish into uncertainty when it combines with cultural heritage.",
+      "The shortcomings of current institutions for heritage protection, self-insurance, and restitution are exposed by the theft, and this paper explores how these gaps represent a larger ambiguity at the nexus of fashion, art, and national identity (Weaver, 2025). By doing this, it poses a seemingly straightforward query: how is 'luxury' safeguarded as it fades into the past?",
+      "The Theft and Its Significance",
+      "The Louvre issued a brief press release confirming the theft and claiming an internal breach of security protocols (Shamin, 2025). According to reports, the burglars targeted display cases containing French court jewels from the 19th century and used a digital override to get around alarm systems. The pilfered objects were on display from the French state's history collection on a rotating basis. Notably, some of them were borrowed from the archives of Maison Chaumet, a partnership that honors 'the artistry of French luxury.'",
+      "This crime's symbolism was what caused it to have an international resonance. These diamonds, which had once adorned monarchs and had withstood wars, revolutions, and shifting fashions to become beautiful remnants of contemporary luxury, represented not only artistry but also heritage (Scott, 2025). Their loss is both artistic and financial because they were at the intersection of commercial status and cultural heritage.",
+      "Legal Vulnerabilities of Cultural Luxury",
+      "A. Heritage Protection and the Limits of the Law",
+      "In terms of cultural preservation, France is frequently seen as a world leader. The state's obligation to safeguard 'national treasures,' which are items of historical, cultural, or archaeological significance, is enshrined in the Code du patrimoine (Scott, 2025). However, when applied to items that fall in between art and decoration, this classification system becomes brittle, even though it is strong for paintings and monuments.",
+      "Jewels, couture items, and fashion archives are examples of luxury objects that rarely fall easily into heritage categories. Their dual status as commodities and cultural symbols makes their legal status more complex, even when they are on exhibit in public facilities. For instance, the cultural heritage law protects the Louvre's collection of arts décoratifs, but it is unclear how to classify works that are borrowed from private maisons such as Chaumet or Cartier. Are they considered commercial products or national treasures if they are stolen?",
+      "International frameworks are of limited assistance. Cultural artifacts are protected from cross-border trafficking by the 1970 UNESCO Convention on the Means of Prohibiting and Preventing the Illicit Import, Export, and Transfer of Ownership of Cultural Property, but only if the originating country formally recognizes them as such (Shamin, 2025). This protection does not apply to many luxury goods, particularly those in private collections, which are never properly registered. Although it provides some protections, the European Union's Regulation (EU) 2019/880 on cultural assets nonetheless gives fine art and archaeology precedence over applied arts.",
+      "Put differently, cultural luxury exists in a legal indefinite state: too historical to be 'mere merchandise,' too ornamental to be 'heritage.'",
+      "B. The Paradox of Insurance",
+      "Like many large museums, the Louvre has a state-backed indemnity scheme for self-insurance. This approach shows faith in security protocols and an understanding that many pieces are, in reality, irreplaceable. However, self-insurance assumes the capacity to bear loss, a calculation that breaks down when the ownership and value of the item get muddled.",
+      "Chaumet's heritage vault temporarily loaned many stolen pieces during the 2025 robbery. Despite being a part of LVMH, the maison is still a business, and its loan arrangements are based on private insurance plans that are different from state indemnity. This leads to a complex web of overlapping responsibilities: who is responsible for paying if private insurance does not cover damages brought on by governmental carelessness and public indemnification covers the display but not the ownership?",
+      "This 'moral hazard of glamour' highlights a more general reality. Spectacle is essential to cultural luxury because things need to be seen to maintain their aura, but being visible also makes one vulnerable. Their risk is increased by the very display of such items, which is necessary for their symbolic use. This paradox has not yet been resolved by legal frameworks.",
+      "Furthermore, the valuation of traditional art insurance models is problematic. What is the cultural value of a royal diadem that was previously captured on camera by Richard Avedon or featured in Vogue archives? Nostalgia, status, and communal identity are difficult for the market to measure, yet the law demands a figure on paper.",
+      "C. International Ownership and Restitution Issues",
+      "The recovery of the stolen jewels would rely on a patchwork of international tools in the event that they resurfaced on the illicit market, possibly dismantled and sold through underground networks. The UNESCO Convention, INTERPOL alerts, and bilateral restitution agreements are all available to France, but the procedure is still difficult, particularly for goods whose provenance trails conflate private and public ownership.",
+      "Jewels don't have provenance records or unique serial markings as paintings have. It is possible to melt settings and recut diamonds. Historical items whose stones predate contemporary tracking systems receive minimal help from the Kimberley Process Certification Scheme, which was created to reduce conflict diamonds.",
+      "This offers a philosophical and legal conundrum: who has the right to reclaim a cultural artifact that doubles as a luxury good—the country, the company, or the person whose heritage it symbolizes? Is recovering the stolen Chaumet tiara a question of criminal justice, intellectual property, or cultural diplomacy if it turns up at a Swiss auction? Every framework produces a different, incomplete response.",
+      "Thus, the heist at the Louvre highlights a gap that international law has not yet addressed between material property and cultural belonging.",
+      "Cultural Glamour's Legal Vulnerability",
+      "Fundamentally, the Louvre robbery compels an examination of the concept of 'cultural glamour.' These are items whose appeal stems from their embeddedness in popular culture as well as their uniqueness or craftsmanship. A diamond diadem transforms from a decorative piece to a performative symbol of civilization and a storehouse of memory.",
+      "However, glamour is not codified like heritage is. It doesn't have any legal validity. The safeguards for fashion, such as copyright, design patents, and trademark legislation, focus on innovation in manufacturing rather than reverence for preservation. An item loses its live aura and is treated by the law as static heritage if it becomes a part of the national identity.",
+      "The legal brittleness of luxury's cultural legacy is exposed by this disjunction. Jewelry or fashion enters a jurisdictional void when it transcends its market origin to become a historical emblem. The tangible—fabric, metal, stone—is protected by law, but not the ethereal glitz that gives them life. And it's precisely that glitz that makes these items mythologized and so targets for theft.",
+      "In a way, the Louvre heist highlighted a paradox at the core of contemporary luxury rather than merely revealing a security flaw. We perceive it as myth, but we also insure it as property and enshrine it as legacy. The legal system is unable to keep up with the cultural connotations that luxury currently conveys because it is still constrained by ownership and authenticity categories.",
+      "Conclusion: When Glamour Becomes Precarious",
+      "The theft of €88 million in royal jewels from the Louvre is more than an isolated crime; it is a parable of legal insufficiency. It reveals how the world’s most secure institutions depend on a patchwork of laws unfit for the hybrid realities of cultural luxury.",
+      "The legislation needs to change as fashion houses and museums work together more and more, as couture archives become part of public history, and as luxury becomes a language of identity. In order to acknowledge these hybrid objects as shared legacies rather than merely as possessions, future frameworks must incorporate intellectual property, cultural policy, and heritage law.",
+      "The empty display case in the Louvre serves as a metaphor for the time being, serving as a mirror that reflects the brittleness of the buildings designed to preserve beauty. Not only do gems disappear when luxury is looted, but the idea that beauty is secure once it is institutionalized also does."
+    ],
+  },
+
+  {
+    id: "Issue-09",
+    category: "Trend Analysis",
+    issue: "Issue 09",
+    title: "Stitches in Time: Legal Protections for Vintage and Archive Fashion",
+    subtitle: "By: Mahek Dharamsi | Date: 3/29/2026",
+    excerpt: "Vintage fashion is more than nostalgia, it is a living archive of design, culture, and identity. As rare garments move from closets to museums and resale markets, their value extends beyond aesthetics into questions of ownership, authenticity, and law.",
+    image: "Issue09Image.jpg",
+    readTime: "5 min read",
+    quote: "As the appetite for vintage fashion grows, so too will the importance of legal protections.",
+    body: [
+      "The Value of the Archive – Why Vintage Collections Matter in Fashion History",
+      "Although fashion is frequently characterized as fleeting, its legacy lives on in clothing, accessories, and fabrics with cultural, social, and financial value. Beyond just bringing back fond memories, vintage and historical fashion collections are a priceless resource for researching changes in design, material innovation, and cultural expression. Designers frequently rework historical silhouettes to influence current trends by consulting archives for inspiration. However, archives give organizations and academics concrete proof of fashion's place in larger social histories, ranging from post-war consumer culture to the liberation of women.",
+      "These collections have become both commodities and cultural objects as their value has increased. Rare clothing by designers is in high demand among auction houses, private collectors, and museums. Therefore, the legal frameworks controlling ownership, preservation, and commerce are crucial to guaranteeing that vintage clothing is safeguarded as historical records as well as luxury items.",
+      "Ownership and Provenance – Establishing Legal Rights over Historic Garments",
+      "Ownership of vintage clothing is rarely easy. Establishing legal rights requires an understanding of provenance, or the recorded history of a garment's origin and ownership chain. In the absence of appropriate documentation, disagreements may surface regarding the authenticity, theft, or misattribution of a garment.",
+      "Provenance-related legal concerns are similar to those encountered in the art sector. Clothes have been the subject of restitution claims, just like stolen artwork. Items that were stolen during a conflict or purchased without the permission of the creators' estates, for instance, could reappear on the market and raise concerns about who actually owns them. In these situations, courts may use expert authentication, contractual agreements, and documentary evidence to settle disagreements.",
+      "Furthermore, fashion houses have been attempting to take more control of their archives by treating old clothing as a component of their brand identity and intellectual property. The moral rights of designers and fashion firms to regulate the way their legacy is exhibited, sold, or changed are still up for debate, even though the law may acknowledge a collector's physical ownership.",
+      "Copyright in the Past – How Old Designs Gain or Lose Protection over Time",
+      "The majority of fashion designs have historically lacked substantial copyright rights, in contrast to artwork. Clothing is regarded as a functional object in many jurisdictions, which restricts the scope of legal protections. Protections eventually expire in cases where copyright does apply, such as to prints, patterns, or extremely unique designs. When safeguards end, designs become public domain and can be freely reproduced, reinterpreted, or copied. For collectors and designers alike, this expiration has important ramifications. As evidenced by the resurrection of 1990s minimalism, it permits the resuscitation of archival silhouettes. However, fashion houses may find it challenging to stop quick fashion companies from stealing designs from the past without giving credit or payment.",
+      "Restoration vs. Alteration – Legal and Ethical Debates in Preserving Vintage Pieces",
+      "Vintage clothing's physical state presents challenging issues for alterations and repair. Strict conservation procedures are frequently used by museums in an effort to stabilize clothing without sacrificing authenticity. However, private collectors could have to decide whether to fix, straighten, or modify clothing so that it is wearable. These choices are both morally right and lawful. A garment's authenticity and provenance may be impacted by alteration, which could lower its value or make future ownership claims more difficult. In certain situations, if the clothing is deemed no longer \"original,\" significant alteration may even nullify insurance coverage.",
+      "Additionally, for ethical reasons, estates and fashion houses may protest changes. For instance, it may be interpreted as insulting the designer's artistic vision to make changes to a couture gown. Although there are few legal options for enforcing such complaints, the ethical discussions surrounding change draw attention to the conflict between personalizing for one's own enjoyment and preservation for cultural memory.",
+      "Museum Loans and Exhibitions – Contracts Behind Showcasing Historic Fashion",
+      "Fashion exhibitions have become some of the most popular cultural events in recent years, from the Metropolitan Museum of Art’s Heavenly Bodies to the V&A’s retrospective on Alexander McQueen. Behind these spectacular showcases are complex legal agreements governing loans, insurance, and responsibilities for preservation.",
+      "Loan agreements typically specify the conditions under which garments may be transported, displayed, and stored. They address everything from humidity levels to lighting exposure, recognizing that textiles are particularly vulnerable to deterioration. Insurance clauses ensure that lenders are compensated if damage or theft occurs, while indemnity provisions protect institutions from unforeseen liabilities.",
+      "In addition, contracts may address intellectual property rights. For example, the use of archival photographs, sketches, or designer logos in exhibition catalogues may require permission from rights holders. These agreements illustrate the intersection of contract law, cultural heritage, and intellectual property in bringing historic fashion to the public.",
+      "Resale Market Regulations – Counterfeit Prevention in the Booming Vintage Trade",
+      "The explosion of the vintage resale market has created both opportunities and risks. Platforms like The RealReal, Vestiaire Collective, and Grailed have made it easier than ever for consumers to buy and sell archival pieces. However, the market has also been flooded with counterfeits, replicas, and misrepresented garments.",
+      "Consumer protection laws, anti-counterfeiting regulations, and platform authentication services all play a role in policing the resale market. Companies often employ in-house experts to verify authenticity, but disputes still arise when buyers discover garments are misrepresented. In such cases, liability may fall on the seller, the platform, or both, depending on contractual terms and local laws.",
+      "Governments have also begun scrutinizing resale platforms more closely, recognizing their growing economic impact. As vintage fashion becomes an increasingly lucrative industry, stricter regulation may be needed to protect consumers while ensuring that legitimate sellers can operate fairly.",
+      "Conclusion",
+      "Vintage and archival fashion sits at the intersection of culture, commerce, and law. The garments themselves are fragile, but the legal frameworks surrounding ownership, preservation, and trade must be strong enough to protect them. From provenance disputes to counterfeiting challenges, fashion law provides essential tools for safeguarding the legacy of design history. At the same time, gaps in protection, particularly in copyright, highlight the need for continued debate about how best to balance creativity, preservation, and access.",
+      "As the appetite for vintage fashion grows, so too will the importance of legal protections. Fashion may move quickly, but its history is stitched in time, waiting to be preserved for future generations."
+    ],
+  },
+
+  {
+    id: "Issue-08",
+    category: "Case Study",
+    issue: "Issue 08",
+    title: "Small Signs, Big Stakes: A Case Study of Levi Strauss & Co. v. Brunello Cucinelli USA",
+    subtitle: "By: Mahek Dharamsi | Date: 3/29/2026",
+    excerpt: "A tiny denim tab sparks a major legal battle, revealing how even the smallest design details shape power, ownership, and creativity in fashion.",
+    image: "Issue08Image.png",
+    readTime: "6 min read",
+    quote: "In modern fashion law, there is no such thing as a trivial design element.",
+    body: [
+      "This case study on the 2024 trademark case between Levi Strauss & Co. and Brunello Cucinelli USA offers an excellent lens through which to analyze the dynamic trends in trademark protection in the fashion industry. The center of the conflict is the pocket tab by Levi, a thin rectangular bit of cloth that has been attached to the denim pockets since 1938. The tab, which appears simple, is one of the most unique brand identifiers of Levi and a registered trademark (Reuters, 2024). Levi accuses Brunello Cucinelli, an Italian luxury brand specializing in understated, high-quality clothes, of adding a similar pocket tab on its higher-end trousers in a manner that was likely to confuse the consumer.",
+      "Although the case itself can seem a humble matter, a minor textile attachment, the legal issues that the case brings about are not insignificant but rather serious. The case represents larger trends in the area of fashion law: the broadening of non-traditional trademark protection, the ongoing intensification of policing of minimal design elements, and the change in legal standards regarding what is considered to be a source-identifying element in the luxury market.",
+      "The Levi pocket tab can be described as an unconventional trademark, a category that includes shapes, colors, configurations, stitching patterns, and other product features that serve as indicators of origin. The protectability of such marks has long existed in the courts, where the acquired distinctiveness of such marks has long been held to be protectable, meaning that consumers have learned to connect the element of design to a specific source.",
+      "In the Levi case, decades of consistent use, advertising, and market presence bolster the argument that the tab is not merely decorative. Instead, it serves as an independent representation of authenticity. The argument behind the claim by Levi is based on the fact that the size and location of the tab, as well as the silhouette of the rectangular shape, are all indicative of the brand, despite there being no wordmarks on it as such.",
+      "The legal standard of protection of such minimalist features has been slowly decreasing with the change of brands and courts becoming accustomed to an even more logo-averse luxury environment. Using micro-signifiers, the market bestows more communicative authority than conspicuous branding, which consumers now prefer to have, using less conspicuousness. In its turn, Trademark doctrine has also evolved to keep pace with those changes, which means that the brands are now able to interfere with such aspects and have a claim on proprietary rights.",
+      "The case of the Levi-Cucinelli dispute also shows how crucial the strategy of trademark enforcement is in the fashion business (Reuters, 2024). Enforcement is not only about remedying confusion between brands, but it is also about exclusivity, discouragement of imitation, and brand integrity. In the case of Levi, the pocket tab has to be heavily patrolled in order to prevent genericide and watering down of the uniqueness of the mark. Their inability to act on such similar uses, especially on the part of the high-visibility luxury brands, might undermine the claim that Levi can have on exclusivity of the tab in any subsequent conflict.",
+      "Moreover, old brands frequently litigate minor design elements to signal vigilance to the rest of the market. A tough enforcement stance will make competitors, both the fast-fashion producers and the luxury houses, understand that even the seemingly minor infringements will be met with opposition. It can influence the design behavior throughout the industry by disincentivizing features that are reminiscent of famous brand signatures.",
+      "Lastly, violent application is normally used, not to achieve legal cases, but to settle cases. Several fashion trademark cases are settled by secret agreements where the trademark has to be redesigned or licensed on a narrow basis. The deterrent value of the verdict is worth it, not the verdict itself.",
+      "Although enforcement can be justified considering the interests of the conventional brands, it can become problematic for other designers starting out with a lack of legal resources. The spread of enforceable non-traditional trademarks reduces the range of vocabulary that can be used in design. Minimalist fashion is increasingly becoming more common, which means that such design elements as tabs, stitching lines, the form of pockets, tags on the fabric, etc., can be subject to an infringement claim.",
+      "Small designers usually do not have the ability to sustain expensive litigation, even when their use can be proven legally. Therefore, they can take the initiative of avoiding some forms or positions to reduce the risk of lawsuits. This self-censorship may obstruct creativity and support structural imbalances in the fashion sector, with massive companies having a significant IP portfolio plus the right to impose it violently.",
+      "The Levi-Cucinelli example thus represents a conflict between the need to preserve brand identity and the need to have an open arena of creative expression. Designers are forced into a denser, more legally perilous design space as rights get more and more legitimized in courts concerning minor product characteristics.",
+      "The Levi case itself can also be included in the larger trends in fashion IP, specifically the rise of the trade dress claims. Trade dress protects the “total image” of a product, including combinations of non-functional design features that, taken together, signal source identity (Reuters, 2024). While Levi’s tab is a registered trademark, disputes of this nature often involve overlapping trade-dress theories.",
+      "Courts are, however, also wary of functionality. A design feature cannot be patented in case it plays a fundamental role in the use of the product or it influences the cost or quality of the product. With brands becoming more interested in ensuring that they safeguard minor and occasionally functional aspects, the courts have to strike a balance between the goal to avoid consumer confusion and the desire to avoid creating a monopoly on the common design practices.",
+      "Although these are the complexities of the doctrines, the majority of fashion trademark disputes have never seen a trial. The practice of settlement is the rule, fueled by the prohibitive nature of litigation, the uncertainty attached to the evidence of the consumer surveys, and the wish of the luxury brands to keep things under wraps.",
+      "The Levi Strauss & Co. v. Brunello Cucinelli USA dispute exemplifies the heightened importance of minimal design features in contemporary trademark law. As the luxury market shifts toward quieter forms of branding and consumers increasingly interpret small details as source identifiers, these elements acquire greater legal and commercial significance.",
+      "For legacy brands, the enforcement of such features is central to maintaining heritage, distinctiveness, and market control. For emerging designers, the growing web of protected minimalist marks presents both creative and legal challenges. And for the legal field, the dispute highlights the need to reconsider how trademark and trade dress doctrines apply to fashion as aesthetic conventions evolve.",
+      "Ultimately, the case demonstrates that in the current fashion ecosystem, there is no such thing as a trivial design element. The smallest features may hold the greatest legal weight, shaping not only brand identity but also the broader boundaries of creativity within the industry."
+    ],
+  },
+
+  {
+    id: "Issue-07",
+    category: "Ethical",
+    issue: "Issue 07",
+    title: "Sustainable Fashion, Is It Even Possible?",
+    subtitle: "By: Julie Reginato | Date: 3/29/2026",
+    excerpt: "For decades the fashion world has thrived on constant renewal. New aesthetics, revived eras, and microtrends cycling faster than the seasons themselves. But beneath the surface of this constant evolution lies a silent but pressing matter. Sustainability in fashion is no longer a niche conversation. It has become a necessary response to an industry built on speed, excess, and disposability.",
+    image: "Issue07Image.png",
+    readTime: "5 min read",
+    quote: "Sustainability doesn’t mean being perfect. It just means being a little more conscious and letting that awareness shape the way we engage with fashion over time.",
+    body: [
+      "For decades the fashion world has thrived on constant renewal. New aesthetics, revived eras, and microtrends cycling faster than the seasons themselves. But beneath the surface of this constant evolution lies a silent but pressing matter. Sustainability in fashion is no longer a niche conversation. It has become a necessary response to an industry built on speed, excess, and disposability.",
+      "As someone who’s passionate about exploring the science behind fashion, I’ve started to see the industry through a different lens. It’s no longer only about how something looks or how it fits into the trend cycle, but about everything that happens before it reaches us. The materials, the production, the number of people involved behind the scenes. It all amounts in ways that we don’t often notice or think about.",
+      "According to the Geneva Environment Network, the fashion industry is responsible for significant environmental impacts, including major water consumption and contributing close to 10% of global carbon emissions. What once existed as idealized creative space now sits at the center of a growing environmental crisis.",
+      "Fast fashion has been known to come at a huge environmental and social cost. With approximately 60% of all materials being made from plastic, the majority of the clothing we wear is directly connected to pollution and long-term environmental damage. (UNEP, 2019).",
+      "But sustainability isn’t just about environmental damage. It’s about the systems behind them as well.",
+      "The Forbes Technology Council highlights that sustainability in fashion incorporates systems like: ethical labor practices, supply chain transparency, and the use of technology to improve production while reducing waste. Behind every single article of clothing is a network of workers, materials, and decisions, all of which remain invisible to the consumer. The incorporation of sustainability within the fashion industry forces that visibility. It asks brands to take accountability not just for the final product, but for every step behind it.",
+      "This up and coming shift is redefining what ‘value’ means in fashion. It is no longer enough for a piece to be visually compelling, it must also be consciously made. Since fashion has always been about ‘newness’ and ‘new eras’ sustainability challenges this idea by encouraging longevity over novelty. It asks consumers to slow down in a space that has historically rewarded speed.",
+      "This contradiction is where the conversation becomes most interesting.",
+      "Sustainability doesn’t mean the end of creativity, it just demands a more thoughtful version of it. Designers are now working within constraints, reimagining what can be done with fewer resources. Limitation acting as a catalyst for innovation.",
+      "While this sustainable fashion conversation can feel heavy, the light is starting to show at the end of the tunnel. More people are rethinking how they shop and what they do with clothes they no longer wear. Stores like Value Village, Goodwill Industries International, and Plato’s Closet have made it easier to give clothing a second life.",
+      "With thrifting turning into a trend, it isn’t just about saving money. It’s about slowing down, finding pieces that feel unique, and stepping outside of the constant pressure to keep up with trends. It changes the way you interact with fashion, making it feel more personal and less disposable.",
+      "So where do we fit into all of this? Honestly. It doesn’t have to be overwhelming. Small changes actually matter more than we think. Shopping second-hand when you can, re-wearing pieces you already own, being a bit more intentional before buying something new are all ways to be part of the shift. Even just being aware of where your clothes come from is a step in the right direction.",
+      "Sustainability doesn’t mean being perfect. It just means being a little more conscious and letting that awareness shape the way we engage with fashion over time."
+    ],
+  },
+
   {
     id: "Issue-06",
     category: "Culture",
@@ -276,7 +418,7 @@ const articles = [
      "Other forms of intellectual property, such as design patents and copyright, offer temporary protection for aesthetic features without permanently restricting access. Concerns over color depletion remain central, as excessive privatization could restrict the creative palette available to designers.",
   
      "VII. Conclusion",
-  
+
     "The legal treatment of color in fashion reflects both the flexibility and restraint of trademark law. Courts recognize the commercial and symbolic value of color while maintaining safeguards to preserve competition and cultural accessibility. Trademark law ultimately balances exclusivity and openness, allowing brands to claim identity without privatizing the full spectrum."
   ],
   },
@@ -328,7 +470,8 @@ function renderCards(list) {
     grid.innerHTML = '<p class="no-results">No articles found.</p>';
     return;
   }
-  grid.innerHTML = list.map(a => `
+  const limited = list.slice(0, MAX_ARTICLES_TO_SHOW);
+  grid.innerHTML = limited.map(a => `
     <article class="article-card" onclick="openArticle('${a.id}')">
       <div class="card-img-wrap">
         <img src="${a.image}" alt="${a.title}" loading="lazy" />
@@ -341,7 +484,7 @@ function renderCards(list) {
           <span>${a.readTime}</span>
         </div>
         <h3 class="card-title">${a.title}</h3>
-        <p class="card-subtitle">${a.subtitle}</p>  
+        <p class="card-subtitle">${a.subtitle}</p>
         <div class="card-excerpt">${a.excerpt}</div>
         <span class="card-read-btn">
           Open Article
@@ -351,6 +494,7 @@ function renderCards(list) {
     </article>
   `).join('');
 }
+
 
 // ── SEARCH ───────────────────────────────────────────────────────
 function filterArticles(query) {
@@ -440,6 +584,3 @@ window.addEventListener('popstate', (e) => {
 // ── INIT ─────────────────────────────────────────────────────────
 applyConfig();
 renderCards(articles);
-
-
-// END //
