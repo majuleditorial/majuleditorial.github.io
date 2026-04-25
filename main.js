@@ -22,7 +22,7 @@ const HERO = {
   body: "Handcrafted for visual storytelling, engaging reading, and a deeper exploration of fashion beyond surface-level expression",
   heroArticleId: "fashion-journalism",
   heroImage: "LeadArticleImage.png",
-  heroBadge: "Issue 06 · Featured",
+  heroBadge: "Issue 07 · Featured",
 };
 
 // ── FEATURED ARTICLE (Lead Story) ────────────────────────────────
