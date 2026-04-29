@@ -21,8 +21,8 @@ const HERO = {
   headline: "A polished digital home for <em>fashion,</em> culture, and commentary.",
   body: "Handcrafted for visual storytelling, engaging reading, and a deeper exploration of fashion beyond surface-level expression",
   heroArticleId: "fashion-journalism",
-  heroImage: "LeadArticleImage.png",
-  heroBadge: "Issue 06 · Featured",
+  heroImage: "LeadArticleImage.jpeg",
+  heroBadge: "Issue 07 · Featured",
 };
 
 // ── FEATURED ARTICLE (Lead Story) ────────────────────────────────
@@ -169,7 +169,7 @@ const articles = [
     title: "Sustainable Fashion, Is It Even Possible?",
     subtitle: "By: Julie Reginato | Date: 3/29/2026",
     excerpt: "For decades the fashion world has thrived on constant renewal. New aesthetics, revived eras, and microtrends cycling faster than the seasons themselves. But beneath the surface of this constant evolution lies a silent but pressing matter. Sustainability in fashion is no longer a niche conversation. It has become a necessary response to an industry built on speed, excess, and disposability.",
-    image: "Issue07Image.png",
+    image: "Issue07Image.jpeg",
     readTime: "5 min read",
     quote: "Sustainability doesn’t mean being perfect. It just means being a little more conscious and letting that awareness shape the way we engage with fashion over time.",
     body: [
