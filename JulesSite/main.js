@@ -12,25 +12,23 @@ const SITE_CONFIG = {
   instagramUrl: "https://www.instagram.com/majuleditorial/",
 };
 
-const MAX_ARTICLES_TO_SHOW = 10;
-
 // ── HERO SECTION ─────────────────────────────────────────────────
 // heroArticleId must match an id in the articles array below.
 const HERO = {
   eyebrow: "New Editorial Platform",
   headline: "A polished digital home for <em>fashion,</em> culture, and commentary.",
   body: "Handcrafted for visual storytelling, engaging reading, and a deeper exploration of fashion beyond surface-level expression",
-  heroArticleId: "fashion-journalism",
-  heroImage: "LeadArticleImage.jpeg",
-  heroBadge: "Issue 07 · Featured",
+  heroArticleId: "Issue-12",
+  heroImage: "Issue12.png",
+  heroBadge: "Issue 12 · Featured",
 };
 
 // ── FEATURED ARTICLE (Lead Story) ────────────────────────────────
 // featuredId must match an id in the articles array below.
 const FEATURED = {
-  featuredId: "Issue-07",
-  sectionDesc: "Sustainability shifts fashion from a race for novelty to a careful practice of value, where the true story of a garment extends beyond the runway.",
-  editorNote: "True innovation in fashion now includes accountability: how pieces are made, worn, and reimagined matters as much as how they look.",
+  featuredId: "Issue-12",
+  sectionDesc: "Couth Studios reveals the fragility of speculative fashion, replacing overproduction with a model grounded in demand, restraint, and responsibility.",
+  editorNote: "Intentional design challenges fashion's old logic: create less, listen more, and produce only what has reason to exist.",
 };
 
 // ── ARTICLES ─────────────────────────────────────────────────────
@@ -48,6 +46,128 @@ const FEATURED = {
 //   quote     — pull quote shown large inside the article page
 //   body      — array of paragraph strings (the full article text)
 const articles = [
+  {
+    id: "Issue-14",
+    category: "Ethical",
+    issue: "Issue 14",
+    title: "Fur, Faux, and the Illusion of Ethics",
+    subtitle: "By: Mahek Dharamsi | Date: 5/4/26",
+    excerpt: "As fashion moralizes materials, fur remains one of its most contested symbols. This piece explores the uneasy space between ethics, culture, and consumption, where sustainability becomes aesthetic, and responsibility is far less clear than it appears.",
+    image: "Issue14.png",
+    readTime: "6 min read",
+    quote: "Ethical fashion does not concern purity, but responsibility.",
+    body: [
+      "Winter arrives the same way it always has: quietly at first, then all at once. The air grows cold, the pavements are covered with ice, and we instinctively reach into our thick coats, knitwear, and the heaviest stuff we have in our wardrobe. Warmth existed long before man-made insulation and oversized puffers. Fur, pelt, and skin were not a style statement but were required. However, with time, need turned to prestige, and fur became a symbol of money, luxury, and privilege.",
+      "Fur is at an inconvenient location in fashion today. To most people, it is a short word for cruelty, an industry that is premised on the commodification of animal life. To some, it is tradition, art, or legacy. Whether or not fur is ethical or unethical is not the question, but when, how, and to whom.",
+      "Take the secondhand fur coat, the one in the back of the grandmother's closet, or in the racks of a vintage store. It is already made. The animal was killed long since. Will wearing it continue to do harm, or will it rebel against waste in the industry that is characterized by overproduction?",
+      "There are also claims that the wearing of fur makes its use acceptable and natural and keeps the market going. Others respond by saying that not wearing the current clothes will do nothing to redress past violence and, in fact, promote the manufacture of new, intensive alternatives.",
+      "This strain exposes another uneasiness in the ethical fashion discourse: the fact that we like to apply morality as an aesthetic. Fur is made a symbol of bad morality, and other kinds of destruction, like exploitation of labor, use of fossil fuel in textiles, and environmental destruction, are not seen and thus are not condemned.",
+      "The second-hand fur coat is a perennial. A faux fur coat, which is usually composed of plastic fibers, can lose microplastics and degrade in ten years. The morals are not as obvious as they can be displayed on a mood board or in an Instagram caption.",
+      "The faux fur often comes out as the ethical alternative: animal-free, affordable, and matching modern ideals. But the environmental price of it seldom has the industry in its spotlight. The faux furs are non-biodegradable, most of them are petroleum-based, and difficult to recycle.",
+      "By trying to abandon the use of animals, we tend to further depend on those materials that destroy the ecosystems and disproportionately impact vulnerable communities by polluting and creating waste. Whether faux fur is better or not becomes irrelevant; it is whether it can help consumers feel better that appears to be the question.",
+      "Ethics, by all means, are not universal. They are contextual. This becomes particularly visible when one speaks about the Indigenous communities and their relations to fur and pelts. To most of the Indigenous people, the harvesting of animals is associated with survival, tradition, and respect for the land.",
+      "These are not excess practices controlled by systems of stewardship. It is reductive and colonial to apply identical moral standards that are applied to luxury fur fashion houses to the practice of Indigenous culture. It glosses over the past of land dispossession, forced assimilation, and the continued marginalization of Indigenous knowledge systems.",
+      "In cases where fashion ethics do not consider power, they stand to erase rather than protect. Who is to determine what is ethical and whose practice is disparaged in the process? When people flail their hands at fur, their indictment is usually focused on Western, urban, and consumerist backgrounds and ignores non-fitting voices that cannot be easily incorporated into the modern sustainability discourse.",
+      "This is not a call to blindly glorify and revive fur as a fad. It is the need to fight the temptation of simplifying. Ethical fashion does not concern purity, but responsibility. It challenges us to pose more difficult questions of production, longevity, labor, culture, and impact: questions that cannot be resolved by any one choice of fabric.",
+      "Maybe even the fur coat in the closet of your grandmother is not a sin or a protest. Maybe it is a product of another era, another conception of luxury, a different intercourse of human beings with nature. It might be uncomfortable to wear. Failing to put it on can be a waste. Both reactions are valid.",
+      "Intentionality is the most important issue. Are we wearing blindly, or puncturing our pasts into the fabric of our clothes? Are we giving more attention to appearances than results? Will we be content to sit with the inconvenience instead of finding a solution to it in trend-conscious methods?",
+      "Winter will continue to arrive, without minding our arguments. The coats we wear, fur or faux or thrifted or inherited, are not as significant as the systems we support with them. Fashion ethics is not about seeking the right way. They are asking more questions and more questions, even when we are cold, and we are tempted to have something easy."
+    ],
+  },
+  {
+    id: "Issue-13",
+    category: "Ethical",
+    issue: "Issue 13",
+    title: "Greenwashing in the Fashion Industry",
+    subtitle: "By: Mahek Dharamsi | Date: 07/26/25",
+    excerpt: "In an industry increasingly defined by sustainability, the absence of clear legal standards creates space for manipulation. This piece explores how greenwashing exposes the limits of fashion law, where vague claims, weak enforcement, and global supply chains complicate accountability.",
+    image: "Issue13.png",
+    readTime: "7 min read",
+    quote: "Fashion must do good as well as look good, and the law makes sure it fulfills its commitments.",
+    body: [
+      "Sustainability appears to have gained more attention in the fashion industry. Brands are feeling more and more pressure to be \"green\" as consumers expect ethical production and environmental responsibility. Greenwashing, the practice of deceiving customers about a company's environmental policies or products, is a concerning phenomenon that has emerged as a result of this pressure. Although the sustainability movement in fashion may indicate advancement, the reality is frequently clouded by ambiguous statements, a lack of regulation, and legal gray areas.",
+      "What Is Greenwashing, and Why Does It Matter?",
+      "The practice of using marketing techniques to inflate or fake a company's environmental credentials is known as greenwashing. Words like \"sustainable,\" \"eco-friendly,\" and \"conscious collection\" are frequently used without any regulatory requirements or independent confirmation. This deceives customers, hides actual environmental damage, and hurts businesses that do make investments in sustainable processes.",
+      "Over 42% of green claims in fashion ads were overstated or untrue, according to 2023 European Commission research. As fast fashion giants race to capture eco-conscious consumers, many prioritize appearance over genuine accountability.",
+      "Legal Frameworks: The Gap Between Regulation and Reality",
+      "In the realm of fashion, the majority of nations lack legally mandated definitions of \"sustainable\" or \"green.\" Because of this ambiguity, businesses can make use of marketing words without having to adhere to quantifiable standards. Much of the globe still uses voluntary guidelines, even if the EU Green Claims Directive and France's Duty of Vigilance Law have started to increase inspections.",
+      "The goal of the Federal Trade Commission's Green Guides in the US is to stop misleading environmental advertising. These guidelines, which were last revised in 2012, are still nonbinding. In the absence of obligatory disclosures or enforcement mechanisms, greenwashing typically goes unchallenged.",
+      "Furthermore, multinational fashion companies frequently conduct business in countries with lax regulations, which enables them to evade responsibility in international supply chains. This includes using terms like \"recycled\" or \"organic\" excessively without supporting documentation, evading labor audits, and avoiding emissions disclosures.",
+      "Case in Point: H&M's Conscious Collection",
+      "In 2022, H&M faced backlash after an independent watchdog accused the brand of providing misleading sustainability scores for its Conscious Collection. Despite being marketed as environmentally friendly, several of the clothes had more of an impact on the environment than their conventional equivalents.",
+      "Numerous nations filed legal complaints in response to this issue, including Norway, which launched a consumer protection inquiry. However, the brand received no significant penalties, underscoring the shortcomings of the enforcement mechanisms in place at the moment.",
+      "Consumer Rights and Transparency Requirements",
+      "From the standpoint of fashion law, greenwashing is a consumer protection issue as well as a marketing one. False sustainability claims are against the concepts of choice, informed consent, and trade fairness. Customers ought to have the freedom to base their decisions about what to buy on factual, substantiated information.",
+      "Mandatory disclosures, third-party certifications, and sanctions for misleading environmental advertising are all being called for by legal reforms. The EU's new Digital Services Act mandates greater transparency requirements for online marketplaces, while the UK's Competition and Markets Authority (CMA) now mandates that businesses support their green claims with verifiable data.",
+      "Enforcement is still inconsistent, though. Greenwashing continues to be a low-risk, high-reward tactic in nations with weak consumer protection laws or environmental watchdogs.",
+      "Conclusion: Using Fashion Law to Address Greenwashing",
+      "Greenwashing undermines customer confidence, impedes real sustainability initiatives, and permits unethical behavior to continue under the guise of environmentally friendly advertising. Fashion law has the potential to be a potent instrument for safeguarding people and the environment through extensive legislative change, more openness, and corporate accountability.",
+      "Fashion must do good as well as look good as the industry develops, and the law makes sure it fulfills its commitments."
+    ],
+  },
+  {
+    id: "Issue-12",
+    category: "Made in Toronto",
+    issue: "Issue 12",
+    title: "Couth Studios and the End of Speculative Fashion",
+    subtitle: "By: Mahek Dharamsi | Date: 5/4/2026",
+    excerpt: "In an industry built on prediction, Couth Studios reveals the fragility of a system driven by excess. As production detaches from demand, the boundaries between creation, consumption, and responsibility begin to blur. This article examines how intentional design challenges the very logic fashion has long relied on.",
+    image: "Issue12.png",
+    readTime: "4 min read",
+    quote: "If people don't buy it, we don't make it.",
+    body: [
+      "Designing with demand, not desire.",
+      "Fashion has long operated on a quiet assumption: that desire can be manufactured at scale. Collections are produced in advance, trends are forecasted into existence, and garments enter the world before anyone has asked for them. The result is an industry optimized not for wear, but for output, one where excess is not an accident but a structural feature.",
+      "Couth Studios begins from a refusal of that premise.",
+      "\"Couth came from a tension I couldn't unsee,\" founder Sajna Massey explains. \"Fashion companies store so much data about what people like, and this is so disconnected from what actually gets produced.\" At the same time, the reality is stark: a significant portion of garments are never worn. The disconnect is not just inefficiency; it is design without consequence.",
+      "Couth reframes this relationship entirely. Instead of producing first and searching for demand later, the brand operates on inversion: no demand, no production.",
+      "\"We've built Couth as a direct response to overproduction. Traditional fashion creates first and hopes demand follows. We invert that. If people don't buy it, we don't make it.\"",
+      "The model is deceptively simple, but its results are not. By grounding production in pre-orders and community validation, Couth challenges one of fashion's most entrenched habits: speculation. In doing so, it shifts waste from an inevitability to a decision.",
+      "\"If people don't buy it, we don't make it.\"",
+      "What emerges from this system is what Sajna describes as intentional fashion, a term often used but rarely operationalized.",
+      "\"Intentional fashion is about alignment, between what's designed, what's produced, and what people actually want to wear. It means fewer, better decisions.\"",
+      "In an industry defined by acceleration, intention becomes a form of resistance. It introduces friction into a system built on speed. But for Couth, that friction is not a flaw; it is the point.",
+      "\"In a world optimized for speed, intention is a constraint, and that's exactly why it matters.\"",
+      "This philosophy extends into the brand's use of artificial intelligence, an area where fashion has largely pursued scale over selectivity. Many companies deploy AI to generate more designs, more options, more cycles. Couth positions it differently.",
+      "AI as an editor, not a generator.",
+      "AI is not a tool for expansion but for refinement. It becomes a mechanism for understanding what resonates, what holds cultural weight, and what translates into actual wear rather than simply producing variation.",
+      "\"When paired with human judgment and community input, it becomes a powerful tool for editing, not just creating.\"",
+      "This reframing places Couth at the intersection of technology and restraint, where innovation is measured not by volume but by precision.",
+      "And yet, the brand's most radical proposition may not be technological at all, it is relational.",
+      "\"I want people to feel like they're part of something, not just buying into a brand, but shaping it.\"",
+      "In a demand-driven system, the consumer is no longer a passive endpoint. Participation becomes embedded in the design process itself. A garment exists not because it was predicted, but because it was collectively chosen.",
+      "\"There's a different kind of connection when you know a piece exists because people genuinely wanted it to exist.\"",
+      "From consumer to co-creator.",
+      "This raises a broader question: if demand can be measured in real time, and design can respond accordingly, what happens to the traditional fashion model?",
+      "\"I don't think it disappears overnight,\" Sajna notes, \"but it is being challenged in a meaningful way.\"",
+      "The legacy system, built in an era of slower information and centralized control, relied on brands dictating taste at scale. That authority is now fragmenting. Today's consumer is more informed, more selective, and less willing to participate in excess for its own sake.",
+      "\"What replaces it isn't one single model. But demand-driven, community-informed approaches like ours will become a much bigger part of the landscape.\"",
+      "Couth does not position itself as a total replacement but as a signal a shift toward a fashion system that is less speculative, more responsive, and ultimately more accountable.",
+      "Because the future of fashion may not be about producing more.",
+      "It may be about producing only what matters."
+    ],
+  },
+  {
+    id: "Issue-11",
+    category: "Fashion",
+    issue: "Issue 11",
+    title: "The Met Gala as Cultural Storytelling",
+    subtitle: "By: Majul Editorial | Date: 5/4/2026",
+    excerpt: "The Met Gala has evolved beyond a traditional red carpet into a space where fashion acts as cultural storytelling. Centered around the 2026 theme of costume art, this piece explores how modern fashion is shifting toward self-expression, using the body as a canvas for identity and meaning.",
+    image: "Issue11.jpg",
+    readTime: "4 min read",
+    quote: "Maybe the real shift is that the Met Gala is not just about what we see, but how it makes us think and feel.",
+    body: [
+      "When you think of the most historical fashion show ever, what comes to mind? The Met Gala.",
+      "Each year, like clockwork, on the first Monday of May, the event delivers a spectacle. Dramatic silhouettes, timeless references, and moments that take over the world with conversation. What and why the stars wear goes beyond simple taste and typical formal attire. It reflects the deeper narrative of the exhibition itself. Every look becomes a part of history, and lives on for decades.",
+      "The 2026 theme being 'costume art' feels very in touch with where modern fashion is right now across the globe, deeply rooted in self-expression and the idea of one's body living as a canvas. It reflects a very contemporary approach, where clothing serves purpose beyond function, turning into a conceptual performance.",
+      "In many ways, it begs the question of where the line between fashion and art truly lies, and if there even is a line anymore. What makes this theme uniquely exciting is the potential for individuality. Each look becomes a direct reflection of a celebrity's sense of self.",
+      "This theme is more than just dressing to impress. It shifts focus towards what each person is trying to say, and the message they choose to convey through their art across one of the most watched red carpets in the world.",
+      "That's what makes the Met Gala so special, because are we really watching a fashion show, or are we witnessing a series of personal statements unfold in real time?",
+      "I find myself wondering what message I would convey if I were given that same platform. Would I lean into identity, culture, or something more abstract?",
+      "As viewers, we're not just looking anymore, we're interpreting, questioning, and connecting. Maybe that's the real shift: the Met Gala isn't just about what we see, but how it makes us think and feel, sparking conversations that continue long after the carpet ends."
+    ],
+  },
   
   {
     id: "Issue-10",
@@ -470,8 +590,7 @@ function renderCards(list) {
     grid.innerHTML = '<p class="no-results">No articles found.</p>';
     return;
   }
-  const limited = list.slice(0, MAX_ARTICLES_TO_SHOW);
-  grid.innerHTML = limited.map(a => `
+  grid.innerHTML = list.map(a => `
     <article class="article-card" onclick="openArticle('${a.id}')">
       <div class="card-img-wrap">
         <img src="${a.image}" alt="${a.title}" loading="lazy" />
