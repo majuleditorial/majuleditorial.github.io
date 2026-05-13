@@ -47,6 +47,31 @@ const FEATURED = {
 //   body      — array of paragraph strings (the full article text)
 const articles = [
   {
+    id: "Issue-17",
+    category: "Trend Analysis",
+    issue: "Issue 17",
+    title: "Mermaidcore and the Collapse of Quiet Luxury",
+    subtitle: "By: Mahek Dharamsi | Date: 5/18/2026",
+    excerpt: "Fashion's obsession with restraint may finally be breaking apart. As gloss returns, silhouettes soften, and oceanic textures flood both runways and pop culture, a new aesthetic is emerging from beneath the surface. Mermaidcore reflects more than a seasonal trend, it signals a growing desire for escapism, fluidity, and emotional excess after years dominated by minimalism and control.",
+    image: "Issue17.png",
+    readTime: "4 min read",
+    quote: "Mermaid summer isn't just about looking like you belong to the ocean. It's about wanting to disappear into it.",
+    body: [
+      "Somewhere between the runways and the algorithm, fashion stopped being restrained. The neutrals are fading, the gloss is returning, and everything is starting to feel a little unreal.",
+      "Accessories don't signal status as much as they suggest fantasy: shells, charms, beads, things that feel collected rather than purchased.",
+      "What's emerging doesn't quite have a single name yet, but it's being loosely understood as mermaidcore. And it's everywhere.",
+      "On the runway, Chanel's Fall 2026 collection leaned heavily into fluidity, iridescent textures, translucent layering, and silhouettes that moved like water rather than holding shape. The garments didn't just reference the ocean; they seemed to dissolve into it. It marked a subtle but important shift away from the rigidity that has dominated luxury fashion.",
+      "At the same time, Zara Larsson's Midnight Sun era is pushing the same idea into pop culture. Her aesthetic leans into gloss, shimmer, saturated color, and a kind of chaotic, sun-drenched femininity. There's a deliberate rejection of minimalism here. The body isn't being structured or refined; it's being illuminated.",
+      "Even at a more everyday level, the shift is visible. Blue eyeshadow is back, but softer. Skin isn't matte, it's wet, reflective, almost oceanic. Jewellery has moved away from singular statement pieces toward layered, almost cluttered arrangements, charms, shells, and trinkets.",
+      "Mermaidcore isn't just about the ocean. It's about escape.",
+      "After years of \"clean girl,\" quiet luxury, and hyper-controlled presentation, fashion has reached a kind of saturation point. Everything became too refined, too intentional, too aware of itself. The result was a culture of restraint that, over time, started to feel cold.",
+      "This new aesthetic does the opposite. It rejects control in favor of fluidity. It replaces structure with movement, minimalism with colour, and status with sensation. Where quiet luxury asked you to reduce, mermaidcore asks you to indulge.",
+      "There's also something deeper in the symbolism. The ocean represents distance, depth, and a kind of emotional ambiguity that structured fashion doesn't allow. It's not about perfection. It's about immersion. About being surrounded by something instead of defining it.",
+      "That's why the textures matter so much. The shimmer, the gloss, the transparency, they all mimic light hitting water. They blur edges instead of sharpening them. In a fashion landscape that has been obsessed with clarity and control, that blurring feels intentional.",
+      "Mermaid summer isn't just about looking like you belong to the ocean. It's about wanting to disappear into it."
+    ],
+  },
+  {
     id: "Issue-16",
     category: "Trend Analysis",
     issue: "Issue 16",
