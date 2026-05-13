@@ -18,17 +18,17 @@ const HERO = {
   eyebrow: "New Editorial Platform",
   headline: "A polished digital home for <em>fashion,</em> culture, and commentary.",
   body: "Handcrafted for visual storytelling, engaging reading, and a deeper exploration of fashion beyond surface-level expression",
-  heroArticleId: "Issue-15",
-  heroImage: "Issue15.png",
-  heroBadge: "Issue 15 · Featured",
+  heroArticleId: "Issue-16",
+  heroImage: "Issue16.jpg",
+  heroBadge: "Issue 16 · Featured",
 };
 
 // ── FEATURED ARTICLE (Lead Story) ────────────────────────────────
 // featuredId must match an id in the articles array below.
 const FEATURED = {
-  featuredId: "Issue-15",
-  sectionDesc: "As boycott campaigns and billionaire influence reshape the conversation, the Met Gala's glamour collides with public discomfort around wealth, labor, and spectacle.",
-  editorNote: "Fashion can still produce beauty, but beauty is no longer consumed in isolation from the systems surrounding it.",
+  featuredId: "Issue-16",
+  sectionDesc: "The rise of the naked manicure reveals how restraint, neutrality, and effortless polish have become new signals of status and control.",
+  editorNote: "What looks natural is often carefully produced; the quieter the beauty, the more precisely it has been managed.",
 };
 
 // ── ARTICLES ─────────────────────────────────────────────────────
@@ -46,6 +46,37 @@ const FEATURED = {
 //   quote     — pull quote shown large inside the article page
 //   body      — array of paragraph strings (the full article text)
 const articles = [
+  {
+    id: "Issue-16",
+    category: "Trend Analysis",
+    issue: "Issue 16",
+    title: "The Naked Manicure and Effortless Perfection",
+    subtitle: "By: Mahek Dharamsi | Date: 5/18/2026",
+    excerpt: "The rise of the \"naked manicure\" may appear understated, but its appeal extends far beyond beauty trends. Beneath its glossy neutrality lies a carefully constructed aesthetic tied to wealth, minimalism, and the performance of effortless perfection. As maximalist beauty begins to fade, the return to natural nails reveals how restraint itself has become a new form of status and control.",
+    image: "Issue16.jpg",
+    readTime: "5 min read",
+    quote: "The naked manicure is not the absence of effort. It is the performance of it.",
+    body: [
+      "There is a certain kind of beauty that insists it is not trying.",
+      "It appears in the form of bare nail: short, neatly filed, finished with nothing more than a sheer gloss. Subtle enough to go unnoticed, and yet deliberate enough to be impossible by accident.",
+      "After many years of chrome finishes, intricate nail art, and hyper-ornamentation, the shift toward natural nails feels almost corrective. A return to something more authentic. However, the naked manicure is not the absence of effort. It is the performance of it.",
+      "To appear natural, the nail must be maintained. Cuticles softened, edges perfected, surfaces buffed into uniformity. What is being presented is not raw, but curated, an aesthetic that suggests ease while relying on precision. Like the \"no makeup\" makeup look before it, the naked manicure operates within a paradox: the more invisible the labor, the more successful the illusion.",
+      "This illusion is not neutral. It is coded.",
+      "Minimalism in beauty has long been associated with a particular kind of wealth, one that does not need to signal itself loudly. Where maximalist aesthetics announce presence, minimalism implies security. It suggests that one does not need embellishment to be seen. The naked manicure, in this sense, is not simply a style choice. It is a quiet assertion of control.",
+      "Seen on figures like Anya Taylor-Joy, Renee Zellweger, and Nicola Peltz-Beckham, the look does something deceptively strategic: it redirects attention. Without the interruption of color or design, the eye moves elsewhere: to the silhouette of a garment, the texture of fabric, the weight of jewelry. Beauty recedes so that something else can dominate.",
+      "Because what is framed as \"low maintenance\" is, in practice, highly maintained, but also highly strategic.",
+      "For many women, especially those navigating demanding and highly visible social schedules, time itself becomes a constraint. The idea of sitting in a salon for hours on end, maintaining intricate designs, redoing chipped polish, or keeping up with rapidly shifting nail trends is not always practical. A more pared-back manicure offers something else: flexibility.",
+      "A bare or neutral nail can move across contexts without friction. It transitions from a morning charity event to an evening reception without needing to be changed. It does not compete with an outfit, nor does it require coordination. It allows for adaptability, quick removals, reapplications, or simply the option to leave it untouched. In this sense, minimalism is not just aesthetic. It is functional.",
+      "But even this functionality is coded.",
+      "The ability to appear effortlessly put together across multiple settings, to maintain a polished neutrality that works everywhere, is itself a form of privilege. The \"simple\" manicure becomes a tool of consistency, one that supports a lifestyle defined by movement, visibility, and control over presentation.",
+      "At the same time, the rise of the naked manicure reflects a broader cyclical pattern within trend culture. In recent years, beauty has leaned heavily into excess: chrome finishes, cat-eye effects, three-dimensional embellishments, and hyper-detailed nail art. These styles pushed aesthetics toward maximalism, toward visibility, decoration, and spectacle.",
+      "And when trends move far in one direction, they often swing back just as sharply.",
+      "The return to natural nails reads, in part, as a reaction. A recalibration. After saturation, restraint begins to feel new again. What once signified absence now signals intention.",
+      "In this way, the naked manicure reflects a broader cultural shift. In an environment saturated with visibility, where trends cycle rapidly and aesthetics are constantly produced and reproduced, restraint becomes a form of distinction. To do less, or to appear to do less, becomes its own kind of statement.",
+      "But it is a controlled one.",
+      "The naked manicure does not reject beauty standards. It refines them. It narrows the margin for imperfection while expanding the illusion of ease. What remains is a look that feels natural, but is anything but accidental."
+    ],
+  },
   {
     id: "Issue-15",
     category: "Culture",
