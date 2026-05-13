@@ -18,17 +18,17 @@ const HERO = {
   eyebrow: "New Editorial Platform",
   headline: "A polished digital home for <em>fashion,</em> culture, and commentary.",
   body: "Handcrafted for visual storytelling, engaging reading, and a deeper exploration of fashion beyond surface-level expression",
-  heroArticleId: "Issue-12",
-  heroImage: "Issue12.png",
-  heroBadge: "Issue 12 · Featured",
+  heroArticleId: "Issue-15",
+  heroImage: "Issue15.png",
+  heroBadge: "Issue 15 · Featured",
 };
 
 // ── FEATURED ARTICLE (Lead Story) ────────────────────────────────
 // featuredId must match an id in the articles array below.
 const FEATURED = {
-  featuredId: "Issue-12",
-  sectionDesc: "Couth Studios reveals the fragility of speculative fashion, replacing overproduction with a model grounded in demand, restraint, and responsibility.",
-  editorNote: "Intentional design challenges fashion's old logic: create less, listen more, and produce only what has reason to exist.",
+  featuredId: "Issue-15",
+  sectionDesc: "As boycott campaigns and billionaire influence reshape the conversation, the Met Gala's glamour collides with public discomfort around wealth, labor, and spectacle.",
+  editorNote: "Fashion can still produce beauty, but beauty is no longer consumed in isolation from the systems surrounding it.",
 };
 
 // ── ARTICLES ─────────────────────────────────────────────────────
@@ -46,6 +46,36 @@ const FEATURED = {
 //   quote     — pull quote shown large inside the article page
 //   body      — array of paragraph strings (the full article text)
 const articles = [
+  {
+    id: "Issue-15",
+    category: "Culture",
+    issue: "Issue 15",
+    title: "The Met Gala Hasn't Disappeared",
+    subtitle: "By: Mahek Dharamsi | Date: 5/18/2026",
+    excerpt: "The 2026 Met Gala was supposed to celebrate fashion as art. Instead, it became a flashpoint for debates surrounding billionaire influence, labor exploitation, and the politics of spectacle. As boycott campaigns erupted across New York and protesters targeted Jeff Bezos' involvement with the event, the Gala's fantasy of glamour collided with growing public discomfort around wealth, power, and excess.",
+    image: "Issue15.png",
+    readTime: "9 min read",
+    quote: "The spectacle remains intact, but audiences increasingly view it through the lens of inequality, labor, and institutional power.",
+    body: [
+      "The Met Gala hasn't disappeared. It's just harder to understand why it matters. It arrived once a year and, for a moment, clarified what fashion was, what it valued, what it rewarded, what it considered daring or refined. You didn't need to question its importance. The red carpet wasn't just a spectacle; it was a kind of consensus. Fashion, at least temporarily, had a center.",
+      "Now, the Gala still arrives. It still trends. It still circulates endlessly across Instagram and TikTok. But something quieter has shifted. It no longer defines anything. What once felt like a focal point now feels like just another moment in an already saturated cycle of images.",
+      "Fashion itself no longer operates the way the Met Gala assumes it does. It is no longer structured around a single event, a single city, or a single institution. Style emerges everywhere at once, on sidewalks, in comment sections, through creators who exist entirely outside traditional systems. Influence doesn't move outward from the steps of a museum anymore. It moves laterally, constantly and unpredictably. The Gala still exists within this system, but it no longer sits at its center.",
+      "Paradoxically, the event is more visible than ever. Every arrival is livestreamed, every look is instantly dissected, and every outfit is reduced to content within minutes. But visibility is not the same as authority. The more the Gala is fragmented into clips, rankings, and reactions, the less it functions as a cohesive cultural statement. It becomes a collection of images rather than a singular event.",
+      "Isha Ambani's, an Indian billionaire, appearance at the Met Gala was, by every conventional measure, a triumph of craftsmanship. A hand-painted gold saree shaped by 25 artisans over more than 1,200 hours, layered with over 1,800 carats of diamonds, emeralds, and polki, positioned the look as both couture and cultural statement. It aligned seamlessly with the \"Fashion Is Art\" theme, treating fabric, ornament, and object as a unified composition.",
+      "But the scale of the look also raises a different question, one less about design, and more about context. At a moment marked by political instability, economic strain, and visible global inequality, such an overt display of wealth becomes difficult to separate from its surroundings. The craftsmanship is undeniable, but so is the magnitude of excess. What is presented as artistry risks being received as distance, an image of luxury that feels increasingly detached from the conditions in which it is viewed.",
+      "The controversy surrounding the 2026 Met Gala only intensified this tension. What was intended to be fashion's most prestigious evening became overshadowed by backlash over Amazon founder Jeff Bezos and Lauren Sanchez Bezos serving as honorary co-chairs and lead sponsors. Across New York, posters branding the event the \"Bezos Met Gala\" appeared in subway stations and on city streets, while activist groups projected boycott messages onto buildings throughout Manhattan.",
+      "Much of the criticism centered on the contradiction between the Gala's extravagant spectacle and Amazon's labor controversies. Protesters referenced longstanding allegations that Amazon warehouse employees were forced to skip bathroom breaks by placing hundreds of bottles of fake urine throughout the Metropolitan Museum of Art in what became one of the evening's most widely discussed acts of guerrilla activism. The symbolism was deliberately uncomfortable: luxury staged alongside reminders of labor conditions that made such wealth possible.",
+      "The backlash also reframed the Gala itself. Increasingly, the event was criticized not merely as a celebration of fashion, but as a mechanism of image rehabilitation for billionaires and corporations seeking cultural legitimacy through proximity to art and celebrity. Critics described Bezos' involvement as \"reputation laundering,\" arguing that the event blurred the line between philanthropy, branding, and power.",
+      "In this context, even absence became symbolic. Celebrities such as Zendaya, Timothee Chalamet, and Meryl Streep notably skipped the event, while others publicly questioned participation altogether. The red carpet still generated viral moments and spectacular imagery, but the conversation surrounding it had fundamentally shifted. The focus was no longer only on who wore what, but on what the event itself represented.",
+      "The Met Gala has always depended on fantasy. What feels different now is that the fantasy no longer exists separately from political and economic reality. The spectacle remains intact, but audiences increasingly view it through the lens of inequality, labor, and institutional power. Fashion can still produce beauty, but beauty is no longer consumed in isolation from the systems surrounding it.",
+      "This tension is not new, but it is more visible than ever. The Met Gala has long operated within a space of fantasy, where extravagance is expected, even celebrated. What has shifted is the audience's relationship to that fantasy. The separation that once allowed viewers to admire these displays without discomfort has eroded. Now, the spectacle exists alongside real-time awareness of crisis, conflict, and disparity, making it harder to consume without hesitation.",
+      "The comparison that often surfaces, however hyperbolic, is telling. The event begins to resemble a kind of staged opulence, one that feels closer to watching the Capitol from the districts than participating in a shared cultural moment. The excess is no longer abstract. It is legible.",
+      "This discomfort is amplified by moments where spectacle and symbolism collide without awareness. A few years ago, influencer Haley Kalil drew criticism after appearing in a Marie Antoinette-inspired look while referencing \"let them eat cake,\" a phrase historically associated with aristocratic indifference to public suffering. Detached from its context, the statement functioned as aesthetic rather than history, turning a symbol of inequality into content.",
+      "Taken together, these moments reflect a broader shift. The Met Gala no longer operates solely as a space for fashion experimentation. It also functions as a site where wealth, symbolism, and global context intersect, often uncomfortably.",
+      "The question is no longer just whether a look succeeds aesthetically.",
+      "It is whether it can be separated from what it represents."
+    ],
+  },
   {
     id: "Issue-14",
     category: "Ethical",
