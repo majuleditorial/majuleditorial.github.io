@@ -106,7 +106,7 @@ const articles = [
     id: "Issue-15",
     category: "Culture",
     issue: "Issue 15",
-    title: "The Met Gala Hasn't Disappeared",
+    title: "Why the Met Gala Doesn't Matter Anymore",
     subtitle: "By: Mahek Dharamsi | Date: 5/18/2026",
     excerpt: "The 2026 Met Gala was supposed to celebrate fashion as art. Instead, it became a flashpoint for debates surrounding billionaire influence, labor exploitation, and the politics of spectacle. As boycott campaigns erupted across New York and protesters targeted Jeff Bezos' involvement with the event, the Gala's fantasy of glamour collided with growing public discomfort around wealth, power, and excess.",
     image: "Issue15.png",

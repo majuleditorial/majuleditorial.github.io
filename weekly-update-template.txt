@@ -1,0 +1,82 @@
+╔══════════════════════════════════════════════════════════════╗
+║             MAJUL EDITORIAL — WEEKLY UPDATE TEMPLATE         ║
+║  Fill in every [BLANK], then copy each section into main.js  ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ STEP 1 — HERO SECTION
+ (Replace the existing HERO block in main.js)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+const HERO = {
+  eyebrow: "New Editorial Platform",
+  headline: "A polished digital home for <em>fashion,</em> culture, and commentary.",
+  body: "Handcrafted for visual storytelling, engaging reading, and a deeper exploration of fashion beyond surface-level expression",
+  heroArticleId: "Issue-[ISSUE NUMBER]",
+  heroImage: "Issue[ISSUE NUMBER].png",
+  heroBadge: "Issue [ISSUE NUMBER] · Featured",
+};
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ STEP 2 — FEATURED SECTION
+ (Replace the existing FEATURED block in main.js)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+const FEATURED = {
+  featuredId: "Issue-[ISSUE NUMBER]",
+  sectionDesc: "[ONE SENTENCE SUMMARY OF THE FEATURED ARTICLE — shown under the Featured heading]",
+  editorNote: "[SHORT EDITOR'S NOTE OR PULL QUOTE — shown on the featured card]",
+};
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ STEP 3 — NEW ARTICLE
+ (Paste this at the TOP of the articles array, before the previous issue)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  {
+    id: "Issue-[ISSUE NUMBER]",
+    category: "[CATEGORY]",
+    issue: "Issue [ISSUE NUMBER]",
+    title: "[ARTICLE TITLE]",
+    subtitle: "By: [AUTHOR NAME] | Date: [MM/DD/YYYY]",
+    excerpt: "[PREVIEW TEXT — 2 to 4 sentences shown on the article card]",
+    image: "Issue[ISSUE NUMBER].png",
+    readTime: "[#] min read",
+    quote: "[PULL QUOTE — one memorable line from the article]",
+    body: [
+      "[PARAGRAPH 1]",
+      "[PARAGRAPH 2]",
+      "[PARAGRAPH 3]",
+      "[PARAGRAPH 4]",
+      "[PARAGRAPH 5]",
+      "[PARAGRAPH 6]",
+      "[PARAGRAPH 7]",
+      "[PARAGRAPH 8]",
+      "[ADD OR REMOVE PARAGRAPH LINES AS NEEDED]",
+    ],
+  },
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ NOTES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CATEGORIES (use one of these or add your own):
+  Trend Analysis | Culture | Ethical | Case Study | Made in Toronto | Fashion
+
+SECTION HEADERS IN BODY (renders as bold heading inside the article):
+  Start the paragraph with a Roman numeral like:  "I. Your Heading Here"
+  Example:  "II. The Politics of Restraint"
+
+IMAGE FILE:
+  - Drop the image into the JulesSite folder
+  - Name it exactly Issue[NUMBER].png (or .jpg) to match what you enter above
+
+EACH PARAGRAPH = one string in the body array:
+  - Wrap each paragraph in double quotes
+  - Separate paragraphs with a comma
+  - Use \" if the paragraph itself contains a quote mark
+  - Example:  "She wore a dress that, as she put it, \"felt like the ocean.\""
