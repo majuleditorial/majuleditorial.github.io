@@ -18,17 +18,17 @@ const HERO = {
   eyebrow: "New Editorial Platform",
   headline: "A polished digital home for <em>fashion,</em> culture, and commentary.",
   body: "Handcrafted for visual storytelling, engaging reading, and a deeper exploration of fashion beyond surface-level expression",
-  heroArticleId: "Issue-16",
-  heroImage: "Issue16.jpg",
-  heroBadge: "Issue 16 · Featured",
+  heroArticleId: "Issue-26",
+  heroImage: "Issue26.png",
+  heroBadge: "Issue 26 · Featured",
 };
 
 // ── FEATURED ARTICLE (Lead Story) ────────────────────────────────
 // featuredId must match an id in the articles array below.
 const FEATURED = {
-  featuredId: "Issue-16",
-  sectionDesc: "The rise of the naked manicure reveals how restraint, neutrality, and effortless polish have become new signals of status and control.",
-  editorNote: "What looks natural is often carefully produced; the quieter the beauty, the more precisely it has been managed.",
+  featuredId: "Issue-26",
+  sectionDesc: "From groundbreaking performances to iconic style signatures, Michael Jackson transformed celebrity into a visual art form — and his influence on fashion continues to this day.",
+  editorNote: "Jackson redefined what it meant to be a superstar, creating a blueprint for celebrity, performance, and personal branding that continues to shape artists today.",
 };
 
 // ── ARTICLES ─────────────────────────────────────────────────────
@@ -46,6 +46,87 @@ const FEATURED = {
 //   quote     — pull quote shown large inside the article page
 //   body      — array of paragraph strings (the full article text)
 const articles = [
+  {
+    id: "Issue-27",
+    category: "Made in Toronto",
+    issue: "Issue 27",
+    title: "Canada's Major Cities and Their Aesthetics",
+    subtitle: "By: Mahek Dharamsi | Date: 6/11/2026",
+    excerpt: "Fashion is often treated as a personal choice, yet the cities we inhabit quietly influence how we dress. From Toronto's streetwear-driven urban culture to Montreal's European-inspired creativity and Vancouver's polished outdoor minimalism, each Canadian city cultivates its own visual identity. Examining these differences reveals how geography, culture, and lifestyle shape the aesthetics we wear every day.",
+    image: "Issue27.png",
+    readTime: "4 min read",
+    quote: "Fashion becomes more than personal expression — it becomes geography made visible.",
+    body: [
+      "Each major city in Canada carries its own distinct identity, shaped by culture, climate, history, and the people who move through it every day. These differences don't just show up in architecture or atmosphere; they're also worn on the body. What people choose to wear, and the trends that take hold in each place, reflect the rhythm and personality of the city itself. In this way, fashion becomes more than personal expression — it becomes geography made visible. Just as no two cities feel the same, their aesthetics diverge too, creating unique style ecosystems that speak to local identity while still existing within a broader Canadian landscape.",
+      "Toronto is a city defined by contrast, bustling financial and creative workplaces by day, and a vibrant neon-lit nightlife that carries well into the night. As Canada's largest urban centre, its aesthetic is deeply rooted in urbanism, where pace, density, and diversity shape how people present themselves in public space. In this environment, streetwear naturally becomes a dominant visual language. Torontonians often gravitate toward relaxed yet intentional styling: hoodies, sneakers, oversized silhouettes, and layered basics that balance comfort with a curated edge. The city's fashion landscape blends accessibility with aspiration — high-end streetwear sits comfortably alongside everyday casual wear. Brands such as Fear of God and Stüssy are far from unusual sights, reflecting a culture where global luxury streetwear and local expression intersect seamlessly. In Toronto, style functions as both practicality for a fast-moving city and a subtle signal of cultural awareness within a highly visible urban crowd.",
+      "Montreal is another city defined by striking contrast. On one side lies Old Montreal, with its cobblestone streets and European-inspired architecture that evokes a sense of historic romance; on the other, a more contemporary urban landscape shaped by modern design, student life, and a thriving creative scene. This duality is reflected directly in how people dress. Montrealers often blend European-inspired aesthetics with relaxed, everyday casual wear, creating looks that feel both effortless and intentional. There is a noticeable emphasis on layering, silhouette, and individuality — style here tends to feel more experimental and less driven by overt branding. Accessible fashion retailers such as Zara and H&M play a role in this aesthetic, offering pieces that can be easily styled into more curated, editorial-inspired outfits. At the same time, vintage shops and independent boutiques are deeply embedded in the city's fashion culture, reinforcing a preference for uniqueness over uniformity. In Montreal, clothing becomes a kind of visual hybridity: part European elegance, part North American practicality, and fully shaped by a city that thrives on creative contradiction.",
+      "In Vancouver, a city so closely defined by its surrounding nature — the mountains, the ocean, and the dense evergreen landscape — an outdoors-oriented lifestyle becomes almost inseparable from daily identity. The boundary between wilderness and city life is unusually fluid here: one moment you're in a high-rise downtown core, and the next you're within reach of hiking trails, ski slopes, or the seawall. This proximity to nature has deeply shaped the city's aesthetic sensibility. Vancouver's style often blurs the line between activewear and everyday casual wear. Functionality is central, but it is paired with a distinctly polished minimalism. Clean silhouettes, neutral tones, and technical fabrics dominate the visual landscape, reflecting a lifestyle that values both movement and refinement. Brands such as Aritzia, lululemon, and Arc'teryx have become closely associated with the city's identity, embodying this balance between performance and understated style. In Vancouver, clothing is less about statement-making and more about seamless adaptability — garments designed to move between the gym, the outdoors, and the city without interruption.",
+      "Of course, not everyone within a city dresses the same, and individual style will always resist neat categorization. However, these broader patterns still reveal something meaningful: geography and urban environment play a significant role in shaping collective aesthetics and the trends that emerge within them. Climate, culture, architecture, and local industries all subtly influence what feels practical, desirable, or expressive in a given place. In this sense, fashion becomes a reflection of place as much as person. Each city develops its own visual rhythm, not as a rigid uniform, but as a shared backdrop that informs how people choose to present themselves. Looking across these geographic boundaries, it becomes clear that style is never created in isolation — it is constantly in conversation with the environment it exists within."
+    ],
+  },
+  {
+    id: "Issue-26",
+    category: "Pop Culture",
+    issue: "Issue 26",
+    title: "The King of Pop: Michael Jackson's Lasting Influence on Music and Fashion",
+    subtitle: "By: Mahek Dharamsi | Date: 6/11/2026",
+    excerpt: "Few cultural figures have influenced both music and fashion as profoundly as Michael Jackson. From groundbreaking performances to instantly recognizable style signatures, Jackson transformed celebrity into a visual art form. Decades later, his impact continues to shape the worlds of entertainment, fashion, and personal branding, proving that true cultural influence extends far beyond commercial success.",
+    image: "Issue26.png",
+    readTime: "4 min read",
+    quote: "Jackson redefined what it meant to be a superstar, creating a blueprint for celebrity, performance, and personal branding that continues to shape artists today.",
+    body: [
+      "Michael Jackson remains one of the most influential figures in modern history, a cultural icon whose impact extends far beyond music, breaking racial barriers and reshaping global culture. Through groundbreaking albums such as Thriller and Bad, Jackson helped define the sound of the 1980s, transforming popular music and setting new standards for performance, artistry, and entertainment. Productions such as Thriller revolutionized the music video format by combining cinematic storytelling, innovative choreography, and cutting-edge special effects. In doing so, Jackson elevated the music video into an art form and influenced generations of performers and visual artists. Yet his influence was not limited to the charts. Known globally as the \"King of Pop,\" Jackson redefined what it meant to be a superstar, creating a blueprint for celebrity, performance, and personal branding that continues to shape artists today.",
+      "Alongside his musical achievements, Jackson's influence can be seen throughout the world of fashion. Revolutionary for his time, he transformed stage wear into a form of personal branding, creating a visual identity that was as memorable as his music. From his military-inspired jackets and sequined gloves to his signature black loafers, white socks, and fedoras, Jackson cultivated an aesthetic that was instantly recognizable and uniquely his own. His bold fashion choices blended elements of luxury, performance, and spectacle, helping to elevate concert costumes into cultural statements.",
+      "At the 1984 Grammy Awards, during the height of his Thriller era, Michael Jackson arrived in a navy-blue sequined military-style jacket adorned with gold epaulets, aviator sunglasses, and his now-iconic white sequined glove. The look was unmistakably theatrical, blending elements of military regalia with pop-star extravagance to create an image that was both commanding and instantly recognizable. That evening, Jackson made history by winning a record-breaking eight Grammy Awards, cementing Thriller as a cultural phenomenon. Yet it was not only his musical achievements that captured the public's attention. Dressed in an outfit that projected confidence, authority, and spectacle, Jackson did more than attend the ceremony — he dominated it, setting a shift away from Black tie for awards show fashion.",
+      "Smooth Criminal introduced one of Michael Jackson's most iconic visual moments: the anti-gravity lean, a choreographed illusion that became instantly legendary. Paired with sharply tailored suits, crisp white shirts, and his signature fedora, the performance refined and intensified his already unmistakable aesthetic. The fedora, in particular, evolved into a defining element of his image, symbolizing both elegance and edge while becoming a widely imitated fashion statement.",
+      "Jackson's impact on popular culture extended beyond entertainment and fashion. He set the blueprint for what it meant to be a global celebrity in an increasingly interconnected world. His performances attracted audiences regardless of national, cultural, and linguistic boundaries, demonstrating the power of popular culture to transcend geographic limitations. In many ways, he was among the first truly global pop icons, laying the foundation for the international celebrity culture that dominates the twenty-first century.",
+      "Michael Jackson's legacy demonstrates that cultural influence extends beyond commercial success. By combining music, fashion, performance, and visual storytelling into a cohesive artistic identity, he changed the expectations placed upon popular artists. His impact remains visible not only in the entertainment industry but also in the broader culture that continues to celebrate, reinterpret, and build upon his innovations."
+    ],
+  },
+  {
+    id: "Issue-25",
+    category: "Fashion Commentary",
+    issue: "Issue 25",
+    title: "Rebellion Out of Red",
+    subtitle: "By: Zhanna Uzunyan | Date: 5/30/2026",
+    excerpt: "Fashion has always been shaped by the social and political climates surrounding it. From flappers challenging Victorian ideals to punks rebelling against economic hardship, some of fashion's most influential movements emerged as acts of resistance. As conservative aesthetics once again dominate social media feeds, a growing desire for rebellion is taking shape. The question is not whether fashion will push back, but what form that resistance will take next.",
+    image: "Issue25.png",
+    readTime: "5 min read",
+    quote: "Unique self-expression is born out of struggle.",
+    body: [
+      "There is a problem amongst our generation. We are nostalgic for a time that we have not lived in, which means we are living in a world where the new generation believes the past is more free than the present.",
+      "The digital age thrust the fashion world into the untapped land of online shopping and social media. We, the consumer, had the whole world at our fingertips. The internet sped up globalisation. China and Southeast Asia became huge producers of cheap textiles that fed the West. Stuff, stuff, and more stuff. And in that litter of mass production, we lost taste, style, and culture. This hodge-podge cultural landscape of the 2010s was the perfect foundation for the world to take a turn to the right. The internet — once marketed as the gateway to a more democratised society — became data fed into the technological projects of the elite. Combined with the rise of MAGA, the world swung red.",
+      "And suddenly conservatism re-emerged in our feed. In a world of clean girl makeup and the tradwife aesthetic, how can we set the tone for when the world swings back?",
+      "To understand this pendulum, a look into the shifting tides of the 20th century reveals how startlingly liberal fashion trends are born out of repression.",
+      "Meet the flapper, formally known as the young prostitute. A boyish figure, she shows off her ankles, shins, and even knees with the rising hem and dropped waistline of her skirt. She chops off her long Edwardian locks into a short bob. With her Chanel little black dress and liberated persona, she goes out on the town to drink, smoke, and party.",
+      "We think of her as revolutionary, but what is it about her look that earns that label? She can only be daring if there is something to rebel against. Her look is born out of frustration. The traditional conventions of the 19th century were so ingrained into the daily makeup of a woman's life. She was to stay at home, follow formality, cover herself up in multiple layers, and not enjoy the freedom of participating in the public world. The conservative basis was set. And hence, the practicality, the comfort, and the simplicity of the 1920s dress became shocking.",
+      "The same cannot be said now that showing off ankles doesn't necessarily disrupt our status quo. Clothing that is unique and staggering must be conscious of the current struggles of society. It must define a new set of ideals that propel us forward. That said, eventually there will come a time where the world reverts back to establish the conservative basis from which to later fight.",
+      "The end of World War II saw women leave the workforce as soldiers returned from the battlefields. Back to the home, the women went.",
+      "Dior's 1947 \"New Look\" dominated the cinched waist, full skirt silhouette of the 1950s, highlighting a return to elegance, femininity, and restraint. Harsh gender roles, racial segregation, and McCarthyism bolstered the regressive climate of the decade, creating grounds for opposition in the years ahead. The protests of the 1960s rang loud because they were disruptive. Fashion, reflecting the social and political landscape of the new era, had something to defy again. André Courrèges' minidress and Saint Laurent's 1965 \"Mondrian Look\" helped launch the mod trend, exposing a young woman's bare legs, body, and sense of play. The mod look stunned the parents of baby boomers who had been conditioned by conservatism. As the sexual revolution took off, so did jeans, t-shirts, and tie-dye that equalised the gender gap. Rebellion was back.",
+      "Because the 1950s were so repressive, the culture could recognise a need for liberation — and so it produced the \"scandalous\" mini, and later the subversive folk style of the hippie.",
+      "A tumultuous right-wing political and economic landscape like the one today doesn't mean the end of self-expression. On the contrary, a repressive environment breeds the rise of subcultures. Punk rock in the UK took off in the mid-1970s amidst the oil market shock and unemployment crisis of Heath's conservative government. The year was 1976 and a music manager by the name of Malcolm McLaren introduced the punk band Sex Pistols to his recently renamed shop, Seditionaries. McLaren and his partner, none other than Vivienne Westwood, tapped into the crisis of the working class and designed clothes that fed into their anti-establishment archetype. Thanks to Westwood, the punk subculture had a uniform. Leather, metal, combat gear, and safety pins composed the punk aesthetic. Westwood's then middle finger to the establishment took the shape of screen-printed T-shirts that defaced the monarch. Unique self-expression is born out of struggle.",
+      "So in a time where we are constantly stimulated by our algorithms and nothing seems to surprise us anymore, conservatism may be the antidote to us remembering what it is we are fighting for. To express, to rebel, to liberate, and to tap into a subculture through fashion, society needs a rigid status quo to break. For us to challenge the current polished, demure aesthetic, we need to realise a need for nonconformity — which is why we are looking to the past for inspiration. Maybe the youth's longing for the unapologetic, rebellious attitude of a former time is us realising a desire to change. This nostalgia for a world we haven't seen is a transition period. Two years ago we dipped our toes into brat girl summer, and now we want more. Bleached eyebrows, bold accessories, and a super low-rise leather pant may be the beginning of our protest against the modest clean girl look of the past five years. This repressive climate breeds homogeneity in the way we present ourselves — and sets the conventions that will be broken when the pendulum swings. Only by challenging the conservative status quo can we bring rebellion back through fashion."
+    ],
+  },
+  {
+    id: "Issue-24",
+    category: "Trend Analysis",
+    issue: "Issue 24",
+    title: "The Comeback of Heels",
+    subtitle: "By: Zainab Khalil | Date: 5/30/2026",
+    excerpt: "For years, comfort dominated fashion. Sneakers, slides, and athleisure became the default uniform of everyday life. Yet as personal style begins to push back against sameness, heels and ballet flats are quietly making their return. Their resurgence reflects more than a footwear trend — it signals a renewed interest in intentional dressing, individuality, and the possibility that style and comfort no longer need to compete.",
+    image: "Issue24.png",
+    readTime: "3 min read",
+    quote: "Why must we choose between style and comfort, and why can't both exist in unison?",
+    body: [
+      "The sharp, rhythmic click clack of heels striking the sidewalk, popularised through celebrities, TV shows, and rom coms, once dominated early 2000s everyday style. As years passed, the soft near-silent padding of sneakers and the shuffle of slides replaced it. That silence, however, turned out to be temporary.",
+      "Walking through major cities this spring and summer, something is shifting. Kitten heels, cute flats, slingbacks, and ballet flats are reappearing — quietly returning on their own terms. But why?",
+      "To understand this, we need to look at why they disappeared in the first place. The mid-2010s saw a rise in comfort-first clothing like athleisure. Covid accelerated this further with lockdowns, and when public spaces slowly reopened, the soft, comfortable clothing worn at home became the default visual language of everyday dressing.",
+      "Today, identity is making people crave distinction. With the same paired-down uniform and the same choices feeling repetitive, slipping on a pair of kitten heels or ballet flats has become a statement.",
+      "The resurgence of heels and ballet flats is particularly interesting because it is occurring alongside aesthetics like quiet luxury and balletcore, both built around the idea that getting dressed is worth thinking about. Clothing as well as footwear can communicate something about who you are.",
+      "What makes this even more fascinating is that society is also driving this shift through hybrids like ballet sneakers — which existed long before but are gaining new popularity. The conversation they suggest is a simple one: why must we choose between style and comfort, and why can't both exist in unison?"
+    ],
+  },
   {
     id: "Issue-23",
     category: "Culture",
